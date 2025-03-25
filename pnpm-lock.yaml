@@ -24,8 +24,8 @@ importers:
         specifier: ^3.10.0
         version: 3.10.0
       '@sveltejs/adapter-auto':
-        specifier: ^4.0.0
-        version: 4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))
+        specifier: ^5.0.0
+        version: 5.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))
       '@sveltejs/kit':
         specifier: ^2.19.0
         version: 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1))
@@ -569,8 +569,8 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@sveltejs/adapter-auto@4.0.0':
-    resolution: {integrity: sha512-kmuYSQdD2AwThymQF0haQhM8rE5rhutQXG4LNbnbShwhMO4qQGnKaaTy+88DuNSuoQDi58+thpq8XpHc1+oEKQ==}
+  '@sveltejs/adapter-auto@5.0.0':
+    resolution: {integrity: sha512-r645Oerr5E9pVX8Xk8ZkObRq/915y5HfZQjFFv4opbstvqQqHfgMhm46tR0iDDKqydZOgJCPa6RdQXh6i7G/2g==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -1988,7 +1988,7 @@ snapshots:
     dependencies:
       acorn: 8.14.1
 
-  '@sveltejs/adapter-auto@4.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))':
+  '@sveltejs/adapter-auto@5.0.0(@sveltejs/kit@2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))':
     dependencies:
       '@sveltejs/kit': 2.19.0(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1)))(svelte@5.22.6)(vite@6.2.3(jiti@1.21.7)(sass@1.85.1)(yaml@2.6.1))
       import-meta-resolve: 4.1.0
